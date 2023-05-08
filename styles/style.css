@@ -1,0 +1,323 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.item {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: #333333;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.link:hover {
+    border-bottom: 2px solid #333333;
+}
+
+.nav a img {
+    margin-right: 500px;
+}
+
+/* Intro start */
+
+#intro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 565px;
+    width: 100%;
+    background-image: url("../assets/images/intro-bg.png");
+    background-repeat: no-repeat;
+    background-position: 85% 0;
+    background-size: auto;
+    bottom: 5px solid #333333;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    margin-left: 430px;
+}
+
+.wrapper h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.wrapper p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+    margin-left: 40px;
+}
+
+.wrapper button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    width: 260px;
+    height: 51px;
+    background: #C9514C;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+/* Intro end */
+
+/* About start */
+
+.wrapper-about {
+    margin-top: 68px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.card-about {
+    width: 350px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-about h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.card-about p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.card-about a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #EA625C;
+    text-decoration: none;
+}
+
+.cubs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.cubs span {
+    width: 8px;
+    height: 8px;
+    background: #DDDDDD;
+}
+
+/* About end */
+
+/* Offers start */
+
+.offers-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    margin-bottom: 70px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 490px;
+    height: 387px;
+    gap: 30px;
+}
+
+.left h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.left p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+    margin-left: 40px;
+}
+
+.left button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    width: 260px;
+    height: 51px;
+    border: none;
+    background: #C9514C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+/* Offers end */
+
+/* Service start */
+
+#service {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1250px;
+    height: 830.19px;
+    background-image: url(/assets/images/runners.jpg);
+    margin: 0 auto;
+}
+
+.service-wrapper {
+    width: 490px;
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-right: 125px;
+}
+
+.service-wrapper h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.service-wrapper p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.service-wrapper button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    width: 260px;
+    height: 51px;
+    border: none;
+    background: #C9514C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+/* Service end */
+
+.buttons:hover {
+    background-color: transparent;
+    color: #C9514C;
+    border: 1px solid #C9514C;
+    cursor: pointer;
+}
